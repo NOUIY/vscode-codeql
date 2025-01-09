@@ -12,5 +12,6 @@ src/**
 .gitignore
 gulpfile.js/**
 tsconfig.json
-tsfmt.json
+.prettierrc
 vsc-extension-quickstart.md
+node_modules/**
