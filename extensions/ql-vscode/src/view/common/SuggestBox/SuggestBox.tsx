@@ -1,4 +1,4 @@
-import type { FormEvent, ReactNode } from "react";
+import type { InputEvent, ReactNode } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   autoUpdate,
@@ -173,7 +173,7 @@ export const SuggestBox = <
   );
 
   const handleInput = useCallback(
-    (event: FormEvent<HTMLInputElement>) => {
+    (event: InputEvent<HTMLInputElement>) => {
       const value = event.currentTarget.value;
       onChange(value);
       setIsOpen(true);
