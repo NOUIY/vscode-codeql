@@ -8,6 +8,7 @@ const transformScopes = [
   "@lit",
   "@lit-labs",
   "@hpcc-js",
+  "@open-draft",
 ];
 const transformPackages = [
   "before-after-hook",
@@ -24,6 +25,7 @@ const transformPackages = [
   "p-queue",
   "p-timeout",
   "readdirp",
+  "rettime",
   "robust-predicates",
   "universal-user-agent",
   "until-async",
